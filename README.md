@@ -75,12 +75,15 @@ The following were the accuracies obtained on the different architectures:-
 This assignment consisted implementation of Denoising Autoencoders and Variational Autoencoders on MNIST data . 
 
 The first part was to train a Denoising AutoEncoder, with encoder and decoder following ResNet style and residual connection  after 2 convolution / 2 convolution-batchnorm layer. You are free to pick all other design choices. A 3D TSNE embedding plot for logits/embeddings (output from the encoder) of whole data after every 10 epochs was also created. 
-The second part was a variational autoencoder with a similar setting. A max SSIM score of 0.7 could be achieved. The following are some of the TSNE plots:-<br>
-DAE (after epoch 10) <br><br>
+The second part was a variational autoencoder with a similar setting. A max SSIM score of 0.7 could be achieved. The following are some of the TSNE plots:-<br><br>
+DAE (after epoch 10)<br>
+
 ![AE_epoch_10](https://github.com/arjit06/DL-Assignments/assets/108218688/8e06c4c3-aae5-46a3-887f-6cb27455b21a)
 
 <br><br>
-VAE (after epoch 2)
-![VAE_epoch_2](https://github.com/arjit06/DL-Assignments/assets/108218688/fd96bc08-1e1f-4188-b26d-e45e35cf472e)
+VAE (after epoch 2)<br>
+
+![VAE_epoch_2](https://github.com/arjit06/DL-Assignments/assets/108218688/51351fa6-8a2f-4c19-90d6-91fa43625fb9)
+
 
 
