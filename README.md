@@ -2,7 +2,7 @@
 
 ## Assignment 1
 Implemented a Feed-Forward neural network architecture using torh.nn.Linear featuring four hidden layers, each comprising minimum 32 neurons (excluding input and output layers) on the MNIST Dataset. Trained the model  with ReLU and Signmoid activation functions. Employed the Cross-Entropy loss function and Stochastic Gradient Descent (SGD) optimizer with default parameters, setting the learning rate to 0.0003 and achieved an accuracy of ~90% <br>
-After that Implemented everything defined above completely from scratch. Also implemented the back-propagation algorithm from scratch using only PyTorch tensor operations. Used advanced Regularization techniques like Gradient clipping to boost the accuracy of the from-scratch version and make it comparable to the inbuilt version.<br><br>
+After that Implemented everything defined above completely from scratch. Also implemented the back-propagation algorithm from scratch using only PyTorch tensor operations. Used advanced Regularization techniques like Gradient clipping to boost the accuracy of the from-scratch version and make it comparable to the inbuilt version.<br><br><br>
 
 
 
@@ -68,5 +68,19 @@ The following were the accuracies obtained on the different architectures:-
 </tr>
 </table>
 
+
+<br><br><br>
+
+## Assignment 3
+This assignment consisted implementation of Denoising Autoencoders and Variational Autoencoders on MNIST data . 
+
+The first part was to train a Denoising AutoEncoder, with encoder and decoder following ResNet style and residual connection  after 2 convolution / 2 convolution-batchnorm layer. You are free to pick all other design choices. A 3D TSNE embedding plot for logits/embeddings (output from the encoder) of whole data after every 10 epochs was also created. 
+The second part was a variational autoencoder with a similar setting. A max SSIM score of 0.7 could be achieved. The following are some of the TSNE plots:-
+DAE (after epoch 10) <br><br>
+![AE_epoch_10](https://github.com/arjit06/DL-Assignments/assets/108218688/8e06c4c3-aae5-46a3-887f-6cb27455b21a)
+
+
+VAE (after epoch 2) <br><br>
+![VAE_epoch_2](https://github.com/arjit06/DL-Assignments/assets/108218688/fd96bc08-1e1f-4188-b26d-e45e35cf472e)
 
 
